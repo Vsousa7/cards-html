@@ -2,16 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
-*{
-    margin: 0px;
-    padding: 0px;
-}
+
 
 :root{
     --fontH: 'Abril Fatface', 'cursive';
 }
 
 body{
+    margin: 0px;
+    padding: 0px;
     background-color: lightgrey;
 }
 
@@ -22,9 +21,7 @@ div#container{
     padding: 10px;
     display: inline-block;
     margin-left: 10px;
-    position: relative;
-    left: 35vh;
-    top: 20vh;
+    
     border-radius: 3px;
     box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.336);
 }
